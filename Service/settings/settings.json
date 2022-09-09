@@ -1,0 +1,17 @@
+{
+    "DataBase": {
+        "User": "Danil",
+        "Password": "linaD",
+        "DBName": "postgres",
+        "SSLMode": "disable"
+    },
+    "MessageBroker": {
+        "ClusterID": "my_test_cluster",
+        "ClientID": "admin",
+        "Url": "no"
+    },
+    "Service": {
+        "Host": "127.0.0.1",
+        "Port": "80"
+    }
+}

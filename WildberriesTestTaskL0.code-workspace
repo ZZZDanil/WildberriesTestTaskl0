@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "Service"
+		},
+		{
+			"path": "NatsStreamingServer"
+		},
+		{
+			"path": "DB"
+		},
+		{
+			"path": "ServiceForTest"
+		}
+	]
+}

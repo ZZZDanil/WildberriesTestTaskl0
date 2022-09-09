@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>L0</title>
+    </head>
+    <body>
+      <div>
+        <div>
+          <H1>New Order</H1>
+        </div>
+        <div>
+          <textarea id="putJSON" resize="both" placeholder="JSON Data"></textarea>
+        </div>
+        <div>
+          <button onclick="return putToNats();">Put</button>
+        </div>
+        
+        <script>
+          function putToNats() {
+            fetch("http://{{ .Host}}:{{ .Port}}/createNewOrder",{
+              method: 'PUT',
+              headers:{
+              'Content-Type':'application/json'
+              },
+              body: JSON.stringify(document.getElementById('putJSON').value)
+            })
+            document.getElementById('putJSON').value = '';
+          }
+        </script>
+      </div>
+    </body>
+</html>
