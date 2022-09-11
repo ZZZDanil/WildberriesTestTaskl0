@@ -15,3 +15,9 @@ Made in Visual Studio Code on Golang (Go)
 3. start Nats Streaming Server. (see NatsStreamingServer folder)
 4. start Main Service. (see Service folder)
 5. (optional) start Helper Service For Test. (see ServiceForTest folder)
+
+# Задание
+
+[PDF](https://github.com/ZZZDanil/WildberriesTestTaskl0/files/9543618/L0.pdf)
+
+
